@@ -6,4 +6,10 @@ Feature: Moving backward
 Scenario: Facing North  Given  The rover has position (x=0, y=0) and facing North  
 When  Rove moves backward  Then The rover has position (x=0, y=-1) and facing North
 
+Feature: Moving to the left
+Scenario: Facing North  Given  The rover has position (x=0, y=0) and facing North  
+When  Rove moves to the left  Then The rover has position (x=-0, y=0) and facing West
 
+Feature: Moving to the right
+Scenario: Facing North  Given  The rover has position (x=0, y=0) and facing North  
+When  Rove moves to the right  Then The rover has position (x=0, y=0) and facing Est
