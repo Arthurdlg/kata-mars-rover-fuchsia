@@ -21,6 +21,7 @@ are understood by the rover.
 ## Instructions
 
 * Draw an UML architecture by thinking hard about the project (but don't implement anything yet!)
+* Link to [Class Diagram](https://drive.google.com/file/d/1s8drVCZAKpE2D3ioE4OqyuZFQvnuJ6D_/view?usp=drive_link)
  
  * Try to apply BDD:
     * Find a domain expert
