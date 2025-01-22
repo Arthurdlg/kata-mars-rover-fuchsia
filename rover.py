@@ -9,3 +9,9 @@ class Rover():
     def move_forward(self):
         if self.direction == 'N':
             self.y += 1
+        elif self.direction == 'S':
+            self.y -= 1
+        elif self.direction == 'E':
+            self.x += 1 
+        elif self.direction == 'W':
+            self.x -= 1
